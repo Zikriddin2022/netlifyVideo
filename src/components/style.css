@@ -1,0 +1,53 @@
+.footer{
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white !important;
+    padding: 0;
+}
+
+a {
+    color: white !important;
+}
+
+.icon{
+    margin:5px;
+    padding: 10px;
+    display: flex;
+
+}
+
+h2:hover, .icon:hover{
+    color: red   ;
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+video{
+    width:350px;
+    height: 250px;
+    margin: 10px;
+}
+
+@media screen and (max-width:450px) {
+    video{
+        width:360px;
+        height: 250px;
+        margin: 10px;
+    }
+    }
+    
+    @media screen and (max-width:380px) {
+        video{
+            width:300px;
+            height: 250px;
+            margin: 10px;
+        }
+      }

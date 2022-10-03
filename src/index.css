@@ -1,0 +1,85 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar{
+  width: 0 !important;
+  height: 5px !important;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(114,113,113) !important;
+  border-radius: 10px !important;
+  height: 200px !important;
+}
+
+::webkit-scrollbar-track{
+  background-color: transparent !important;
+}
+
+.category-btn:hover{
+  background-color: #FC1503;
+  color: white !important;
+}
+
+.category-btn:hover span{
+  color: white !important;
+}
+
+.react-player{
+  height: 77vh !important;
+  width: 100%;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
+}
+
+.category-btn{
+  font-weight:bold;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  padding: 7px 15px !important;
+  margin: 10px 0px !important;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width:900px) {
+  .category-btn{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width:450px) {
+.search-bar{
+  border:none;
+  outline:none;
+  width:220px !important;
+}
+}
+
+@media screen and (max-width:380px) {
+  .search-bar{
+    border:none;
+    outline:none;
+    width:150px !important;
+  }
+  }
